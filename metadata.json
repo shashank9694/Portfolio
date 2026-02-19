@@ -1,0 +1,7 @@
+{
+  "name": "AuraFolio - Premium Futuristic Portfolio Engine",
+  "description": "A high-end, innovative personal portfolio builder and showcase featuring a flexible content canvas and a visually dynamic interactive storytelling page.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
