@@ -10,24 +10,24 @@
     <style>
         body {
             font-family: 'Inter', sans-serif;
-            background-color: #030712;
-            color: #f8fafc;
+            margin: 0;
+            padding: 0;
             overflow-x: hidden;
         }
         .font-display {
-            font-family: 'Space+Grotesk', sans-serif;
+            font-family: 'Space Grotesk', sans-serif;
         }
         ::-webkit-scrollbar {
             width: 6px;
         }
         ::-webkit-scrollbar-track {
-            background: #030712;
+            background: transparent;
         }
         ::-webkit-scrollbar-thumb {
-            background: #1e293b;
+            background: #cbd5e1;
             border-radius: 10px;
         }
-        ::-webkit-scrollbar-thumb:hover {
+        .dark ::-webkit-scrollbar-thumb {
             background: #334155;
         }
         @keyframes float {
@@ -37,11 +37,6 @@
         }
         .animate-float {
             animation: float 6s ease-in-out infinite;
-        }
-        .glass-panel {
-            background: rgba(15, 23, 42, 0.6);
-            backdrop-filter: blur(12px);
-            border: 1px solid rgba(255, 255, 255, 0.1);
         }
     </style>
 <script type="importmap">
@@ -59,10 +54,10 @@
   }
 }
 </script>
-<link rel="stylesheet" href="/index.css">
 </head>
 <body>
     <div id="root"></div>
 <script type="module" src="/index.tsx"></script>
+
 </body>
 </html>
